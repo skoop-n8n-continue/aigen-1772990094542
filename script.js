@@ -36,7 +36,7 @@
     particles.forEach(p => {
       ctx.beginPath();
       ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
-      ctx.fillStyle = `rgba(0, 183, 175, ${p.alpha})`;
+      ctx.fillStyle = `rgba(224, 48, 48, ${p.alpha})`;
       ctx.fill();
 
       p.x += p.vx;
